@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.cabecalho
+{
+    background-color: #008CC7;
+    border-bottom: solid;
+    border-width: 2px;
+}
+
+.cabecalho-usuario
+{
+    color: #F4F4F4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.bg-color-02
+{
+    background-color: #2f2b24;
+}
+
+.btn-products
+{
+    background: linear-gradient(to bottom, #ffdb04, #ffa100);
+    color: black;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-products:hover
+{
+    background: linear-gradient(to bottom, #fff6c3, #ffc96c);
+}
+
+.product-box
+{
+    background-color: #2f2b24;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-text-color
+{
+    color: #ffc926;
+}
+
+.where-title
+{
+    color: #ffc926;
+    font-size: 3em;
+}
+
+.where-subtitle
+{
+    color: #ffc926;
+    font-size: 2em;
+}

@@ -2,11 +2,22 @@
 
 namespace App\Controllers;
 
+use App\Models\UserModel;
+
 class Home extends BaseController
 {
+    public function autenticador()
+    {
+        $usuarioModel = new UserModel();
+        $usuarioLogado = $usuarioModel->find(1);
+        // $nome = $usuario['Username'];
+        session()->set('user', $usuarioLogado);
+        return redirect()->to('home');
+    }
+    
     public function index(): string
     {
-        return view('welcome_message');
+        return view('home');
     }
     
     public function printpre($data)

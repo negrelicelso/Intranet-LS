@@ -9,8 +9,7 @@ class Home extends BaseController
     public function autenticador()
     {
         $usuarioModel = new UserModel();
-        $usuarioLogado = $usuarioModel->find(1);
-        // $nome = $usuario['Username'];
+        $usuarioLogado = $usuarioModel->find(session('user')['id']);
         session()->set('user', $usuarioLogado);
         return redirect()->to('home');
     }

@@ -1,4 +1,4 @@
-<footer class="container-fluid mt-5">
+<footer class="container-fluid mt-5 rodape">
     <div class="row justify-content-center">
         <div class="col-6 d-flex flex-row justify-content-center">
             <div class="text-center mx-4">
